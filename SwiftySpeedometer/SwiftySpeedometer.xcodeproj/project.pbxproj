@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4EF369ED1F12EE3B0078A1B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF369EC1F12EE3B0078A1B1 /* AppDelegate.swift */; };
+		4EF369EF1F12EE3B0078A1B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF369EE1F12EE3B0078A1B1 /* ViewController.swift */; };
+		4EF369F21F12EE3B0078A1B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EF369F01F12EE3B0078A1B1 /* Main.storyboard */; };
+		4EF369F41F12EE3B0078A1B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EF369F31F12EE3B0078A1B1 /* Assets.xcassets */; };
+		4EF369F71F12EE3B0078A1B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EF369F51F12EE3B0078A1B1 /* LaunchScreen.storyboard */; };
+		4EF36A021F12EE3B0078A1B1 /* SwiftySpeedometerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF36A011F12EE3B0078A1B1 /* SwiftySpeedometerTests.swift */; };
+		4EF36A0D1F12EE3B0078A1B1 /* SwiftySpeedometerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF36A0C1F12EE3B0078A1B1 /* SwiftySpeedometerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4EF369FE1F12EE3B0078A1B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4EF369E11F12EE3B0078A1B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4EF369E81F12EE3B0078A1B1;
+			remoteInfo = SwiftySpeedometer;
+		};
+		4EF36A091F12EE3B0078A1B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4EF369E11F12EE3B0078A1B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4EF369E81F12EE3B0078A1B1;
+			remoteInfo = SwiftySpeedometer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4EF369E91F12EE3B0078A1B1 /* SwiftySpeedometer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftySpeedometer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EF369EC1F12EE3B0078A1B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4EF369EE1F12EE3B0078A1B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4EF369F11F12EE3B0078A1B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4EF369F31F12EE3B0078A1B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4EF369F61F12EE3B0078A1B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4EF369F81F12EE3B0078A1B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EF369FD1F12EE3B0078A1B1 /* SwiftySpeedometerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftySpeedometerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EF36A011F12EE3B0078A1B1 /* SwiftySpeedometerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftySpeedometerTests.swift; sourceTree = "<group>"; };
+		4EF36A031F12EE3B0078A1B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EF36A081F12EE3B0078A1B1 /* SwiftySpeedometerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftySpeedometerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EF36A0C1F12EE3B0078A1B1 /* SwiftySpeedometerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftySpeedometerUITests.swift; sourceTree = "<group>"; };
+		4EF36A0E1F12EE3B0078A1B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4EF369E61F12EE3B0078A1B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EF369FA1F12EE3B0078A1B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EF36A051F12EE3B0078A1B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4EF369E01F12EE3B0078A1B1 = {
+			isa = PBXGroup;
+			children = (
+				4EF369EB1F12EE3B0078A1B1 /* SwiftySpeedometer */,
+				4EF36A001F12EE3B0078A1B1 /* SwiftySpeedometerTests */,
+				4EF36A0B1F12EE3B0078A1B1 /* SwiftySpeedometerUITests */,
+				4EF369EA1F12EE3B0078A1B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4EF369EA1F12EE3B0078A1B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4EF369E91F12EE3B0078A1B1 /* SwiftySpeedometer.app */,
+				4EF369FD1F12EE3B0078A1B1 /* SwiftySpeedometerTests.xctest */,
+				4EF36A081F12EE3B0078A1B1 /* SwiftySpeedometerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4EF369EB1F12EE3B0078A1B1 /* SwiftySpeedometer */ = {
+			isa = PBXGroup;
+			children = (
+				4EF369EC1F12EE3B0078A1B1 /* AppDelegate.swift */,
+				4EF369EE1F12EE3B0078A1B1 /* ViewController.swift */,
+				4EF369F01F12EE3B0078A1B1 /* Main.storyboard */,
+				4EF369F31F12EE3B0078A1B1 /* Assets.xcassets */,
+				4EF369F51F12EE3B0078A1B1 /* LaunchScreen.storyboard */,
+				4EF369F81F12EE3B0078A1B1 /* Info.plist */,
+			);
+			path = SwiftySpeedometer;
+			sourceTree = "<group>";
+		};
+		4EF36A001F12EE3B0078A1B1 /* SwiftySpeedometerTests */ = {
+			isa = PBXGroup;
+			children = (
+				4EF36A011F12EE3B0078A1B1 /* SwiftySpeedometerTests.swift */,
+				4EF36A031F12EE3B0078A1B1 /* Info.plist */,
+			);
+			path = SwiftySpeedometerTests;
+			sourceTree = "<group>";
+		};
+		4EF36A0B1F12EE3B0078A1B1 /* SwiftySpeedometerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4EF36A0C1F12EE3B0078A1B1 /* SwiftySpeedometerUITests.swift */,
+				4EF36A0E1F12EE3B0078A1B1 /* Info.plist */,
+			);
+			path = SwiftySpeedometerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4EF369E81F12EE3B0078A1B1 /* SwiftySpeedometer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EF36A111F12EE3B0078A1B1 /* Build configuration list for PBXNativeTarget "SwiftySpeedometer" */;
+			buildPhases = (
+				4EF369E51F12EE3B0078A1B1 /* Sources */,
+				4EF369E61F12EE3B0078A1B1 /* Frameworks */,
+				4EF369E71F12EE3B0078A1B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftySpeedometer;
+			productName = SwiftySpeedometer;
+			productReference = 4EF369E91F12EE3B0078A1B1 /* SwiftySpeedometer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4EF369FC1F12EE3B0078A1B1 /* SwiftySpeedometerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EF36A141F12EE3B0078A1B1 /* Build configuration list for PBXNativeTarget "SwiftySpeedometerTests" */;
+			buildPhases = (
+				4EF369F91F12EE3B0078A1B1 /* Sources */,
+				4EF369FA1F12EE3B0078A1B1 /* Frameworks */,
+				4EF369FB1F12EE3B0078A1B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4EF369FF1F12EE3B0078A1B1 /* PBXTargetDependency */,
+			);
+			name = SwiftySpeedometerTests;
+			productName = SwiftySpeedometerTests;
+			productReference = 4EF369FD1F12EE3B0078A1B1 /* SwiftySpeedometerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4EF36A071F12EE3B0078A1B1 /* SwiftySpeedometerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EF36A171F12EE3B0078A1B1 /* Build configuration list for PBXNativeTarget "SwiftySpeedometerUITests" */;
+			buildPhases = (
+				4EF36A041F12EE3B0078A1B1 /* Sources */,
+				4EF36A051F12EE3B0078A1B1 /* Frameworks */,
+				4EF36A061F12EE3B0078A1B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4EF36A0A1F12EE3B0078A1B1 /* PBXTargetDependency */,
+			);
+			name = SwiftySpeedometerUITests;
+			productName = SwiftySpeedometerUITests;
+			productReference = 4EF36A081F12EE3B0078A1B1 /* SwiftySpeedometerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4EF369E11F12EE3B0078A1B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Gary Sapozhnikov";
+				TargetAttributes = {
+					4EF369E81F12EE3B0078A1B1 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 7VS2HXG996;
+						ProvisioningStyle = Automatic;
+					};
+					4EF369FC1F12EE3B0078A1B1 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 7VS2HXG996;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4EF369E81F12EE3B0078A1B1;
+					};
+					4EF36A071F12EE3B0078A1B1 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 7VS2HXG996;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4EF369E81F12EE3B0078A1B1;
+					};
+				};
+			};
+			buildConfigurationList = 4EF369E41F12EE3B0078A1B1 /* Build configuration list for PBXProject "SwiftySpeedometer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4EF369E01F12EE3B0078A1B1;
+			productRefGroup = 4EF369EA1F12EE3B0078A1B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4EF369E81F12EE3B0078A1B1 /* SwiftySpeedometer */,
+				4EF369FC1F12EE3B0078A1B1 /* SwiftySpeedometerTests */,
+				4EF36A071F12EE3B0078A1B1 /* SwiftySpeedometerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4EF369E71F12EE3B0078A1B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EF369F71F12EE3B0078A1B1 /* LaunchScreen.storyboard in Resources */,
+				4EF369F41F12EE3B0078A1B1 /* Assets.xcassets in Resources */,
+				4EF369F21F12EE3B0078A1B1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EF369FB1F12EE3B0078A1B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EF36A061F12EE3B0078A1B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4EF369E51F12EE3B0078A1B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EF369EF1F12EE3B0078A1B1 /* ViewController.swift in Sources */,
+				4EF369ED1F12EE3B0078A1B1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EF369F91F12EE3B0078A1B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EF36A021F12EE3B0078A1B1 /* SwiftySpeedometerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EF36A041F12EE3B0078A1B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EF36A0D1F12EE3B0078A1B1 /* SwiftySpeedometerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4EF369FF1F12EE3B0078A1B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4EF369E81F12EE3B0078A1B1 /* SwiftySpeedometer */;
+			targetProxy = 4EF369FE1F12EE3B0078A1B1 /* PBXContainerItemProxy */;
+		};
+		4EF36A0A1F12EE3B0078A1B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4EF369E81F12EE3B0078A1B1 /* SwiftySpeedometer */;
+			targetProxy = 4EF36A091F12EE3B0078A1B1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4EF369F01F12EE3B0078A1B1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4EF369F11F12EE3B0078A1B1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4EF369F51F12EE3B0078A1B1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4EF369F61F12EE3B0078A1B1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4EF36A0F1F12EE3B0078A1B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4EF36A101F12EE3B0078A1B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4EF36A121F12EE3B0078A1B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7VS2HXG996;
+				INFOPLIST_FILE = SwiftySpeedometer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GaryS.SwiftySpeedometer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4EF36A131F12EE3B0078A1B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7VS2HXG996;
+				INFOPLIST_FILE = SwiftySpeedometer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GaryS.SwiftySpeedometer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		4EF36A151F12EE3B0078A1B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7VS2HXG996;
+				INFOPLIST_FILE = SwiftySpeedometerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GaryS.SwiftySpeedometerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftySpeedometer.app/SwiftySpeedometer";
+			};
+			name = Debug;
+		};
+		4EF36A161F12EE3B0078A1B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7VS2HXG996;
+				INFOPLIST_FILE = SwiftySpeedometerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GaryS.SwiftySpeedometerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftySpeedometer.app/SwiftySpeedometer";
+			};
+			name = Release;
+		};
+		4EF36A181F12EE3B0078A1B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 7VS2HXG996;
+				INFOPLIST_FILE = SwiftySpeedometerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GaryS.SwiftySpeedometerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SwiftySpeedometer;
+			};
+			name = Debug;
+		};
+		4EF36A191F12EE3B0078A1B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 7VS2HXG996;
+				INFOPLIST_FILE = SwiftySpeedometerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GaryS.SwiftySpeedometerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SwiftySpeedometer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4EF369E41F12EE3B0078A1B1 /* Build configuration list for PBXProject "SwiftySpeedometer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EF36A0F1F12EE3B0078A1B1 /* Debug */,
+				4EF36A101F12EE3B0078A1B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EF36A111F12EE3B0078A1B1 /* Build configuration list for PBXNativeTarget "SwiftySpeedometer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EF36A121F12EE3B0078A1B1 /* Debug */,
+				4EF36A131F12EE3B0078A1B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4EF36A141F12EE3B0078A1B1 /* Build configuration list for PBXNativeTarget "SwiftySpeedometerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EF36A151F12EE3B0078A1B1 /* Debug */,
+				4EF36A161F12EE3B0078A1B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4EF36A171F12EE3B0078A1B1 /* Build configuration list for PBXNativeTarget "SwiftySpeedometerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EF36A181F12EE3B0078A1B1 /* Debug */,
+				4EF36A191F12EE3B0078A1B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4EF369E11F12EE3B0078A1B1 /* Project object */;
+}
